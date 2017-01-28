@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3B0F99441E3D24F000452DCD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B0F99431E3D24F000452DCD /* main.cpp */; };
+		3B0F99541E3D254500452DCD /* Hashing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B0F994A1E3D254500452DCD /* Hashing.cpp */; };
+		3B0F99551E3D254500452DCD /* PageTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B0F994C1E3D254500452DCD /* PageTable.cpp */; };
+		3B0F99561E3D254500452DCD /* Process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B0F994E1E3D254500452DCD /* Process.cpp */; };
+		3B0F99571E3D254500452DCD /* ProcessManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B0F99501E3D254500452DCD /* ProcessManager.cpp */; };
+		3B0F99581E3D254500452DCD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3B0F99521E3D254500452DCD /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		3B0F99401E3D24F000452DCD /* Paging */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Paging; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B0F99431E3D24F000452DCD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3B0F994A1E3D254500452DCD /* Hashing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hashing.cpp; sourceTree = "<group>"; };
+		3B0F994B1E3D254500452DCD /* Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hashing.h; sourceTree = "<group>"; };
+		3B0F994C1E3D254500452DCD /* PageTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PageTable.cpp; sourceTree = "<group>"; };
+		3B0F994D1E3D254500452DCD /* PageTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageTable.h; sourceTree = "<group>"; };
+		3B0F994E1E3D254500452DCD /* Process.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Process.cpp; sourceTree = "<group>"; };
+		3B0F994F1E3D254500452DCD /* Process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Process.h; sourceTree = "<group>"; };
+		3B0F99501E3D254500452DCD /* ProcessManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProcessManager.cpp; sourceTree = "<group>"; };
+		3B0F99511E3D254500452DCD /* ProcessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessManager.h; sourceTree = "<group>"; };
+		3B0F99521E3D254500452DCD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3B0F99531E3D254500452DCD /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +72,16 @@
 		3B0F99421E3D24F000452DCD /* Paging */ = {
 			isa = PBXGroup;
 			children = (
+				3B0F994A1E3D254500452DCD /* Hashing.cpp */,
+				3B0F994B1E3D254500452DCD /* Hashing.h */,
+				3B0F994C1E3D254500452DCD /* PageTable.cpp */,
+				3B0F994D1E3D254500452DCD /* PageTable.h */,
+				3B0F994E1E3D254500452DCD /* Process.cpp */,
+				3B0F994F1E3D254500452DCD /* Process.h */,
+				3B0F99501E3D254500452DCD /* ProcessManager.cpp */,
+				3B0F99511E3D254500452DCD /* ProcessManager.h */,
+				3B0F99521E3D254500452DCD /* README.md */,
+				3B0F99531E3D254500452DCD /* Types.h */,
 				3B0F99431E3D24F000452DCD /* main.cpp */,
 			);
 			path = Paging;
@@ -119,7 +144,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B0F99581E3D254500452DCD /* README.md in Sources */,
+				3B0F99541E3D254500452DCD /* Hashing.cpp in Sources */,
+				3B0F99551E3D254500452DCD /* PageTable.cpp in Sources */,
 				3B0F99441E3D24F000452DCD /* main.cpp in Sources */,
+				3B0F99571E3D254500452DCD /* ProcessManager.cpp in Sources */,
+				3B0F99561E3D254500452DCD /* Process.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
