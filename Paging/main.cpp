@@ -1,15 +1,25 @@
-//
-//  main.cpp
-//  Paging
-//
-//  Created by Freya Hayashi on 1/28/17.
-//  Copyright © 2017 Node2. All rights reserved.
-//
+/*
+ * @file: main.cpp
+ * @date: 1/18/17
+ * @author: Felipe Cabrera
+ *
+ * Copyright © 2017 Data2. All rights reserved.
+ */
 
 #include <iostream>
+#include "Hashing.h"
+#include "ProcessManager.h"
+#include "Process.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main() {
+	Process::Manager m(0x400);
+	
+	while(1) {
+		std::string a;
+		std::cin >> a;
+		Process::Process * p = m.add(a);
+		std::cout << "Process '" << p->getName() << "' with pid = " << p->getPid() << std::endl;
+	}
+	
+	return 0;
 }
